@@ -1,0 +1,52 @@
+.bg-primary {
+	background-color: #36374a !important;
+}
+
+.text-primary {
+	color: #603942 !important;
+}
+
+a {
+	color: white;
+	&:hover,
+	&:focus,
+	&:active {
+		color: darken(#36374a, 15%);
+	}
+}
+
+body {
+	background-color: #e2b9b4 !important;
+}
+
+h3 {
+	color: #603942 !important;
+}
+
+.subheading {
+	color: #36374a !important;
+}
+
+.mb-3 {
+	color: white !important;
+}
+
+.mb-0 {
+	color: white !important;
+}
+.mb-5 {
+	color: #36374a !important;
+}
+
+.mb-4 {
+	color: #36374a !important;
+}
+
+p {
+	color: #36374a !important;
+	font-size: 22px !important;
+}
+
+h1 {
+	color: #36374a !important;
+}
