@@ -1,0 +1,41 @@
+#particles-js {
+	z-index: 1;
+}
+h1 {
+	color: white;
+}
+section {
+	background-color: none;
+}
+canvas {
+	position: absolute;
+	left: 2%;
+	top: 6px;
+	max-width: 97%;
+	max-height: 98%;
+	z-index: -9;
+	padding-left: 260px;
+	opacity: 0.3;
+}
+
+p {
+	color: white;
+}
+
+i {
+	color: white;
+}
+
+@media (max-width: 1000px) {
+	canvas {
+		/*visibility: hidden;*/
+
+		left: 2%;
+		top: 6px;
+		z-index: -9;
+		padding-left: 0px;
+		opacity: 0.3;
+		position: absolute;
+		
+		
+}
