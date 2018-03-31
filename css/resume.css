@@ -120,8 +120,13 @@ h2 {
   color: white !important; }
 
 a {
-  color: red; }
+  color: white; }
   a:hover, a:focus, a:active {
+    color: #16161e; }
+
+#overridden {
+  color: red !important; }
+  #overridden:hover, #overridden:focus, #overridden:active {
     color: #16161e; }
 
 body {
